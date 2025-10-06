@@ -1,0 +1,9 @@
+= 需要BlueXP访问角色
+:allow-uri-read: 
+
+
+
+
+=== 需要BlueXP访问角色
+
+现在，您需要以下访问角色之一来安装软件更新：*组织管理员*、*文件夹或项目管理员*、*存储管理员*、*存储查看器*或*存储健康专家*。具有存储查看器角色的用户具有与软件更新相关的各种权限，但不能安装软件更新。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]

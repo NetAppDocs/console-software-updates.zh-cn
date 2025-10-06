@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/fix-blockers-warnings.html 
+keywords: fix ontap blockers and warnings, ontap update precheck, acknowledge warnings 
+summary: 修复ONTAP阻止程序并确认阻止您完成ONTAP更新的警告。 
+---
+= 在ONTAP升级之前使用软件更新修复所有阻止程序
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+确定ONTAP存储系统的ONTAP目标版本后，您应该修复并确认所有阻止程序，并在更新ONTAP存储系统之前查看警告。
+
+在更新软件之前，您必须修复并确认所有阻止程序。
+
+.步骤
+. 从控制台左侧导航中，选择*健康*>*软件更新*。
++
+控制台显示需要软件更新的集群列表。
+
+. 确定存储系统的ONTAP目标版本。有关识别ONTAP目标版本的信息，请参阅link:../ONTAP/choose-ontap-910-later.html["比较ONTAP版本以了解使用软件更新的优势和风险"]。
+. 确定ONTAP目标版本后，选择“准备更新”以启动更新过程。
++
+显示阻止程序和警告的列表。
+
+. 选择阻止程序以查看修复阻止程序的说明。
+. 手动执行提供的步骤来修复阻止程序。
+. 选择已修复的阻止程序，然后选择*确认选择*以确认该阻止程序已被修复。
+
+
+
+NOTE: 您必须修复并确认所有阻止程序才能继续更新。
+
+. 在继续软件更新之前，选择“*警告*”选项卡来查看警告。
+. 选择“*确认*”选项卡来查看已修复的阻止程序。
+. 选择*继续更新*以继续更新过程。
+

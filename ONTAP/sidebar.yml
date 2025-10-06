@@ -1,0 +1,12 @@
+---
+section: ontap
+title: 使用软件更新
+entries:
+- title: 比较ONTAP版本以了解更新的优势和风险
+  url: "/ONTAP/choose-ontap-910-later.html"
+- title: 修复ONTAP阻止程序并确认警告
+  url: "/ONTAP/fix-blockers-warnings.html"
+- title: 启动ONTAP存储系统更新
+  url: "/ONTAP/update-storage-system.html"
+- title: 验证ONTAP存储系统更新的状态
+  url: "/ONTAP/validate-storage-system-update.html"

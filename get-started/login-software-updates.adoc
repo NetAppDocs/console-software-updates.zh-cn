@@ -1,0 +1,25 @@
+---
+sidebar: sidebar 
+permalink: get-started/login-software-updates.html 
+keywords: bluexp login, software updates log in, NetApp Console 
+summary: 登录并访问软件更新。 
+---
+= 访问软件更新
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+要访问软件更新，您必须登录到NetApp控制台。
+
+使用您的NetApp支持站点凭据登录或使用您的电子邮件和密码注册。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["了解有关登录的更多信息"^] 。
+
+.步骤
+. 打开 Web 浏览器并转到link:https://console.netapp.com/["控制台"^]。
++
+控制台显示登录页面。
+
+. 登录控制台。
+. 从控制台左侧导航中，选择“健康”>“软件更新”。
+

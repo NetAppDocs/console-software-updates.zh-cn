@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: get-started/prerequisites-ontap-update.html 
+keywords: prerequisites for ontap update, ontap update requirements, ontap update versions, prepare for ontap update 
+summary: 在继续进行ONTAP更新之前，请查看先决条件和要求。 
+---
+= 准备使用软件更新来更新ONTAP
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在继续进行ONTAP更新之前，您应该查看先决条件和要求。您可以使用软件更新来验证系统、登录、网络访问和 Web 浏览器的准备情况。
+
+.所需的NetApp控制台角色：
+组织管理员、文件夹或项目管理员、存储管理员、存储查看器或系统健康专家。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解控制台访问角色。"^]
+
+要使用软件更新，您应该确保您的系统满足所有要求。
+
+* 在控制台中设置了一个系统。
+* 执行软件更新时，所需集群的管理员凭据可用。
+* 集群中的所有节点都在发送AutoSupport数据。
+* 所有节点都应在ONTAP 9.10 或更高版本上运行。
+* 节点不应处于MetroCluster配置中。
+

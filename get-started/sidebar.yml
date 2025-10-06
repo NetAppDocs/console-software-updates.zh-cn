@@ -1,0 +1,14 @@
+---
+section: get-started
+title: 开始进行软件更新
+entries:
+- title: 了解软件更新
+  url: "/get-started/software-updates.html"
+- title: 前提条件
+  url: "/get-started/prerequisites-ontap-update.html"
+- title: 快速启动
+  url: "/get-started/quick-start-ontap-update.html"
+- title: 访问软件更新
+  url: "/get-started/login-software-updates.html"
+- title: 常见问题解答
+  url: "/get-started/software-updates-faq.html"

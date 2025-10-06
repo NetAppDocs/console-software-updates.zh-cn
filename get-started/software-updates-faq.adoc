@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates-faq.html 
+keywords: ontap update faq, ontap update frequently asked questions, software updates faq, software updates frequently asked questions, troubleshooting 
+summary: 查看有关软件更新的常见问题的解答。 
+---
+= 软件更新常见问题解答
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您想了解有关软件更新的更多信息或需要任何故障排除帮助，您可以查看这些问题以获得快速解答。
+
+*软件更新 URL 是什么？*
+
+对于 URL，在浏览器中输入： https://console.netapp.com/["https://console.netapp.com/"^]访问NetApp控制台。
+
+*您需要许可证才能使用软件更新吗？*
+
+不需要NetApp许可证文件 (NLF)。
+
+*为什么即使更新了集群的ONTAP版本后，我仍无法在历史记录选项卡中查看集群？*
+
+集群需要 2 到 3 个小时才能出现在历史记录选项卡中。一旦集群的ONTAP版本更新，就会生成AutoSupport 。处理AutoSupport数据并反映最新版本的ONTAP需要 2 到 3 个小时。
+
+*为什么即使更新了集群的ONTAP版本后，我仍然会在软件更新仪表板中看到旧版本的ONTAP ？*
+
+集群需要 2 到 3 个小时才能出现在历史记录选项卡中。一旦集群的ONTAP版本更新，就会生成AutoSupport 。处理AutoSupport数据并反映最新版本的ONTAP需要 2 到 3 个小时。
+
+*为什么我会看到不同更新的不同屏幕？*
+
+这是由于当前ONTAP版本和集群的控制台代理不可用。控制台代理在控制台内执行ONTAP更新，不需要您离开控制台进行更新。如果您没有控制台代理，您将被重定向到系统管理器并需要重新输入ONTAP集群凭据。有关不同版本ONTAP的ONTAP更新过程的信息，请参阅link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["支持的ONTAP系统"]。
+
+*我需要什么来发现集群？*
+
+要对所需集群执行ONTAP更新，您需要ONTAP集群 IP 和用于连接集群的管理员凭据。作为集群发现的一部分，您需要提供这些详细信息，以便可以自动执行ONTAP更新。
+
+您还需要拥有以下访问角色之一：组织管理员、文件夹或项目管理员或存储管理员。

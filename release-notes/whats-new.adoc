@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: release-notes/whats-new.html 
+keywords: 'software updates, ontap update, what"s new, enhancements' 
+summary: 了解软件更新中引入的新功能和增强功能。 
+---
+= 软件更新中的新功能
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+了解软件更新中的新内容。
+
+
+
+== 2025年10月6日
+
+
+
+=== BlueXP software updates现在是软件更新
+
+BlueXP software updates已重命名为软件更新。
+
+您可以通过选择“NetApp控制台”左侧导航栏中的“*健康*”>“*软件更新*”来访问它。
+
+
+
+=== BlueXP现在是NetApp控制台
+
+NetApp控制台建立在增强和重组的BlueXP基础之上，可在企业级内部和云环境中集中管理NetApp存储和NetApp数据服务，提供实时洞察、更快的工作流程和简化的管理，并且高度安全且合规。
+
+有关更改的详细信息，请参阅 https://docs.netapp.com/us-en/bluexp-relnotes/index.html["NetApp控制台发行说明"]。
+
+
+
+== 2025年5月12日
+
+
+
+=== 需要BlueXP访问角色
+
+现在，您需要以下访问角色之一来安装软件更新：*组织管理员*、*文件夹或项目管理员*、*存储管理员*、*存储查看器*或*存储健康专家*。具有存储查看器角色的用户具有与软件更新相关的各种权限，但不能安装软件更新。link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["了解BlueXP访问角色。"^]
+
+
+
+== 2025年4月2日
+
+
+
+=== 降低风险
+
+在BlueXP software updates的摘要部分，您现在可以查看操作系统更新可以缓解的风险总数。这使得用户能够评估其安装基础的安全性和稳定性改进。
+
+
+
+== 2024年8月7日
+
+
+
+=== ONTAP更新
+
+BlueXP software updates服务通过降低风险并确保客户能够充分利用ONTAP功能，为用户提供无缝的更新体验。
+
+详细了解link:https://docs.netapp.com/us-en/bluexp-software-updates/get-started/software-updates.html["BlueXP software updates"] 。

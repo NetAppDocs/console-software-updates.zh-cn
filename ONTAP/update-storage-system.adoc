@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/update-storage-system.html 
+keywords: update ontap storage system 
+summary: 更新您的ONTAP存储系统以利用新的和增强的功能。 
+---
+= 使用软件更新启动ONTAP更新
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+确定ONTAP目标版本、修复并确认所有阻止程序后，您现在可以启动ONTAP存储系统的更新。
+
+.步骤
+. 从控制台左侧导航中，选择*健康*>*软件更新*。
++
+显示需要软件更新的集群列表。
+
+. 确定存储系统的ONTAP目标版本。有关识别ONTAP目标版本的信息，请参阅link:../ONTAP/choose-ontap-910-later.html["比较ONTAP版本以了解使用软件更新的优势和风险"]。
+. 修复并确认ONTAP阻止程序。有关修复阻止程序的信息，请参阅link:../ONTAP/fix-blockers-warnings.html["在ONTAP升级之前使用软件更新修复所有阻止程序"]。
+. 阅读并接受最终用户许可协议。
++
+等待检索ONTAP映像。
+
+. 单击“*安装更新*”以完成更新过程。
+

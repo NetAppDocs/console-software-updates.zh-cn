@@ -1,0 +1,38 @@
+---
+indexpage:
+  title: 软件更新文档
+  keywords: software updates, update ONTAP, upgrade ONTAP, ONTAP version, ONTAP 9.8
+  lead: 软件更新使客户能够简化ONTAP更新。它使评估、规划和执行过程自动化。
+  tiles:
+  - title: 开始使用
+    links:
+    - title: 了解软件更新
+      url: "/get-started/software-updates.html"
+    - title: 软件更新中的新功能
+      url: "/release-notes/whats-new.html"
+    - title: 快速启动
+      url: "/get-started/quick-start-ontap-update.html"
+    - title: 前提条件
+      url: "/get-started/prerequisites-ontap-update.html"
+    - title: 登录软件更新
+      url: "/get-started/login-software-updates.html"
+    - title: 常见问题解答
+      url: "/get-started/software-updates-faq.html"
+  - title: 使用软件更新
+    links:
+    - title: 选择ONTAP目标版本 9.10 或更高版本
+      url: "/ONTAP/choose-ontap-910-later.html"
+    - title: 修复并确认ONTAP阻止程序
+      url: "/ONTAP/fix-blockers-warnings.html"
+    - title: 完成ONTAP存储系统更新
+      url: "/ONTAP/update-storage-system.html"
+    - title: 验证ONTAP存储系统更新的状态
+      url: "/ONTAP/validate-storage-system-update.html"
+  - title: 博客和社区
+    links:
+    - title: NetApp控制台
+      url: https://www.netapp.com/console
+    - title: NetApp数据服务
+      url: https://www.netapp.com/data-services/
+    - title: NetApp 社区
+      url: https://community.netapp.com/

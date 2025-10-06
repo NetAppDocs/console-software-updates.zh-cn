@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/choose-ontap-910-later.html 
+keywords: choose ontap target version, ontap update recommendations, identify ontap target version, recommended version, benefits and risks or ONTAP version 
+summary: 在升级ONTAP存储系统之前，请了解每个ONTAP版本的优势和风险。 
+---
+= 比较ONTAP版本以了解使用软件更新的优势和风险
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在更新存储系统的ONTAP版本之前，比较并了解与ONTAP目标版本相关的优势和风险非常重要。
+
+您可以选择目标版本并将其与当前版本进行比较，以了解在ONTAP上更新到特定版本的好处。您还可以看到将要解决的风险以及更新到特定版本的ONTAP时将出现的新风险（如果有）。
+
+
+NOTE: 仅当您运行ONTAP 9.10 或更高版本时才可以使用此功能。
+
+.步骤
+. 从控制台左侧导航中，选择*健康*>*软件更新*。
++
+显示需要软件更新的集群列表。您可以更新到推荐的目标版本，也可以选择其他版本。
+
+
+
+|===
+| 条件 | 操作 
+
+
+ a| 
+想要更新到推荐版本
+ a| 
+. 在“*目标版本*”列中，单击“比较版本”以查看更新到推荐的ONTAP版本的功能优势和风险优势。
+. 选择并查看有关将要解决的风险、将继续存在的风险以及更新后将引入的新风险的信息。
+. 或者，单击“*下载更新计划*”以下载更新计划的副本。
+. 单击“*开始更新*”以启动更新过程。
+
+
+
+
+ a| 
+想要选择其他版本
+ a| 
+. 在*目标版本*列中，单击下拉菜单并选择*选择其他版本*。
+. 选择版本以查看功能优势和风险优势。
+. 选择并查看有关将要解决的风险、将继续存在的风险以及更新后将引入的新风险的信息。
+. 或者，单击“*下载更新计划*”以下载更新计划的副本。
+. 选择*开始更新*以启动更新过程。
+
+
+|===

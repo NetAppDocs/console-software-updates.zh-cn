@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: get-started/software-updates.html 
+keywords: ontap 9.10, ontap update, supported systems for ontap update, ontap version, software updates benefits 
+summary: 通过使用软件更新无缝更新您的ONTAP存储系统，以利用新的和增强的功能。 
+---
+= 了解软件更新
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用软件更新来帮助客户简化ONTAP更新。这可以帮助您降低成本、加速关键工作负载并提高安全性。
+
+软件更新使评估、规划和执行过程自动化。智能升级顾问可以预测哪些版本最适合特定系统，推荐版本来解决问题，提高效率，增强系统安全性，让客户确定满足其需求的最佳选择。然后，它分发软件包并自动执行自动化非分布式升级（ANDU），独立于支持服务。
+
+
+
+== NetApp控制台
+
+可以通过NetApp控制台访问软件更新。
+
+NetApp控制台提供企业级跨本地和云环境的NetApp存储和数据服务的集中管理。需要控制台才能访问和使用NetApp数据服务。作为管理界面，它使您能够从一个界面管理许多存储资源。控制台管理员可以控制企业内所有系统的存储和服务的访问。
+
+您不需要许可证或订阅即可开始使用NetApp控制台，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。
+
+详细了解 https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp控制台"]。
+
+
+
+== 支持的ONTAP系统
+
+仅当您运行的是ONTAP 9.10 或更高版本时，才可以使用软件更新完成ONTAP更新。
+
+以下信息提供了不同ONTAP版本的软件更新过程：
+
+|===
+| *当前ONTAP版本* | *更新过程* 
+
+
+| 9.12 及以上 | ONTAP更新的所有步骤都在控制台内进行。 
+
+
+| 9.10 至 9.12 | ONTAP更新的准备工作在软件更新屏幕内进行。您将导航到系统管理器来执行实际的ONTAP更新。要在控制台中执行ONTAP更新的所有步骤，您需要link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-install-connector-on-prem.html["设置控制台代理"]。 
+
+
+| 9.8 至 9.10 | ONTAP更新的准备工作在软件更新屏幕内进行。您将导航到系统管理器来执行实际的ONTAP更新。 
+
+
+| 低于9.7 | 此集群不支持自动ONTAP更新。您需要手动更新ONTAP 。有关更多信息，请参阅link:https://docs.netapp.com/us-en/ontap/upgrade/index.html["手动更新存储系统"] 。 
+|===
+
+
+== 使用软件更新的好处
+
+更新ONTAP存储系统可以帮助您提高存储系统的性能、安全性和功能。
+
+更新ONTAP存储系统的一些好处包括：
+
+* 您可以访问ONTAP提供的最新功能和增强功能，例如新协议、数据服务和云集成选项。
+* 您可以修复任何可能影响系统稳定性、可靠性或安全性的错误或漏洞。
+* 您可以通过应用最新的补丁和改进来优化系统性能和效率。
+* 您可以确保与其他NetApp产品、第三方应用程序和云提供商的兼容性和互操作性。
+* 您可以受益于NetApp为最新ONTAP OS 版本提供的持续支持和维护。
+
+
+
+
+== 成本
+
+NetApp不会向您收取使用软件更新的费用。

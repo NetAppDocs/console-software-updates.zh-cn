@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: ONTAP/validate-storage-system-update.html 
+keywords: validate status of ontap update, track status of ontap update 
+summary: 验证ONTAP更新的状态以决定应执行的后续步骤。 
+---
+= 验证ONTAP存储系统更新的状态
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用软件更新来验证ONTAP更新的状态。
+
+.步骤
+. 从控制台左侧导航中，选择*健康*>*软件更新*。
+. 单击“*历史记录*”选项卡可查看ONTAP更新的状态。
+
+
+
+NOTE: 集群需要 2 到 3 个小时才能反映在历史记录选项卡中。
