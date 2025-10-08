@@ -15,7 +15,7 @@ summary: 查看有关软件更新的常见问题的解答。
 
 *软件更新 URL 是什么？*
 
-对于 URL，在浏览器中输入： https://console.netapp.com/["https://console.netapp.com/"^]访问NetApp控制台。
+对于 URL，在浏览器中输入： https://console.netapp.com/["https://console.netapp.com/"^]访问NetApp Console。
 
 *您需要许可证才能使用软件更新吗？*
 

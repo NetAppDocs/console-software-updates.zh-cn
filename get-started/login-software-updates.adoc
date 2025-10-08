@@ -11,7 +11,7 @@ summary: 登录并访问软件更新。
 
 
 [role="lead"]
-要访问软件更新，您必须登录到NetApp控制台。
+要访问软件更新，您必须登录到NetApp Console。
 
 使用您的NetApp支持站点凭据登录或使用您的电子邮件和密码注册。link:https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["了解有关登录的更多信息"^] 。
 
