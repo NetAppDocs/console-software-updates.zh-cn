@@ -18,5 +18,5 @@ sidebar:
   - title: 法律声明
     url: "/legal-notices.html"
 product-family:
-  name: Netapp Console
+  name: NetApp Console
   repo: console-family

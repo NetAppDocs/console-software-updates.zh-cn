@@ -31,7 +31,7 @@ indexpage:
   - title: 博客和社区
     links:
     - title: NetApp控制台
-      url: https://www.netapp.com/console
+      url: https://www.netapp.com/console/
     - title: NetApp数据服务
       url: https://www.netapp.com/data-services/
     - title: NetApp 社区
