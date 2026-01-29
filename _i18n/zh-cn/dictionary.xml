@@ -4,7 +4,6 @@
   <block id="b75c1aac9aa77f2c871639ef1dfb023d" category="doc">比较ONTAP版本以了解使用软件更新的优势和风险</block>
   <block id="49d68f82813e1841cdc24205608d8fe2" category="paragraph">在更新存储系统的ONTAP版本之前，比较并了解与ONTAP目标版本相关的优势和风险非常重要。</block>
   <block id="0634e55ef28524df4ddd4c1ddfd72bdd" category="paragraph">您可以选择目标版本并将其与当前版本进行比较，以了解在ONTAP上更新到特定版本的好处。您还可以看到将要解决的风险以及更新到特定版本的ONTAP时将出现的新风险（如果有）。</block>
-  <block id="74083ab8069d07080edb25320474b13b" category="admonition">仅当您运行ONTAP 9.10 或更高版本时才可以使用此功能。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">步骤</block>
   <block id="2c8105f21aa500d6eefa19e4072f9f91" category="list-text">从控制台左侧导航中，选择*健康*&gt;*软件更新*。</block>
   <block id="a3357e3f3f28af2c155b25638df91fdb" category="paragraph">显示需要软件更新的集群列表。您可以更新到推荐的目标版本，也可以选择其他版本。</block>
@@ -38,8 +37,6 @@
   <block id="0fd40a88a795a27afa35dc3e7dbce97c" category="summary">更新您的ONTAP存储系统以利用新的和增强的功能。</block>
   <block id="b999d3e2ca0d95fc761f8994426c1b75" category="doc">使用软件更新启动ONTAP更新</block>
   <block id="0ae470cfcd6da9622bf1c34549a18b77" category="paragraph">确定ONTAP目标版本、修复并确认所有阻止程序后，您现在可以启动ONTAP存储系统的更新。</block>
-  <block id="a710a4a4b33a19ce9678b290e8622101" category="paragraph">显示需要软件更新的集群列表。</block>
-  <block id="71131c9e35974213e2b0a3cbac2fbddc" category="list-text">修复并确认ONTAP阻止程序。有关修复阻止程序的信息，请参阅<block ref="a0c773d092c5c735a87bc32f8b10113b" category="inline-link-macro-rx"></block>。</block>
   <block id="84159d0a25239d2d4573172d023c46e7" category="list-text">阅读并接受最终用户许可协议。</block>
   <block id="7e6935bb4ba08bd2b040fec7140cefe8" category="paragraph">等待检索ONTAP映像。</block>
   <block id="b707a048aebf6a3d5685827572cc3de1" category="list-text">单击“*安装更新*”以完成更新过程。</block>
@@ -84,7 +81,6 @@
   <block id="23753a7836eeb4045452e66e687dbad6" category="list-text">在控制台中设置了一个系统。</block>
   <block id="0a97d1300ce9361165541c64b6bd10b7" category="list-text">执行软件更新时，所需集群的管理员凭据可用。</block>
   <block id="b34cd7f587984e9b254885f6d8640801" category="list-text">集群中的所有节点都在发送AutoSupport数据。</block>
-  <block id="27eb16a8f5038a8a66d0aec86d022bbd" category="list-text">所有节点都应运行ONTAP 9.10 或更高版本。</block>
   <block id="8cb2d0d931dcf081c2e6cdb9235d0efa" category="list-text">节点不应处于MetroCluster配置中。</block>
   <block id="2dc7ae12158353c62d51898b1414574d" category="summary">开始无缝、快速地更新您的ONTAP存储系统。</block>
   <block id="798a6e52e04dbe32b660de894b56e6ec" category="doc">使用软件更新快速开始更新ONTAP</block>
@@ -132,20 +128,13 @@
   <block id="0a0979a6d279475a420ea5c279943daa" category="paragraph">NetApp Console提供企业级跨本地和云环境的NetApp存储和数据服务的集中管理。需要控制台才能访问和使用NetApp数据服务。作为管理界面，它使您能够从一个界面管理许多存储资源。控制台管理员可以控制企业内所有系统的存储和服务的访问。</block>
   <block id="7118a6b22768dabe4720d84710ea1e43" category="paragraph">您不需要许可证或订阅即可开始使用NetApp Console，并且只有当您需要在云中部署控制台代理以确保与存储系统或NetApp数据服务的连接时才需要付费。但是，一些可从控制台访问的NetApp数据服务是需要许可或基于订阅的。</block>
   <block id="4d0bb76e32bfe205406b10f5dfa9d47b" category="paragraph">详细了解<block ref="e6368f2dd82be1e975475a1098863578" category="inline-link-rx"></block>。</block>
-  <block id="9f457dd05c49b0680cc820751e5f05e0" category="paragraph">仅当您运行的是ONTAP 9.10 或更高版本时，才可以使用软件更新完成ONTAP更新。</block>
   <block id="41925df988245764ca51e3f019b7e67f" category="paragraph">以下信息提供了不同ONTAP版本的软件更新过程：</block>
   <block id="41ca04e9eb8e8b4b1e9ab896420680d1" category="cell">*当前ONTAP版本*</block>
   <block id="f50b087d08c30ad58b6a4e58fec94218" category="cell">*更新过程*</block>
-  <block id="ec3d19b838303db83f08c34ee1acef64" category="cell">9.12 及以上</block>
   <block id="cf11ab55bd87e367e0fffc998a9fac43" category="cell">ONTAP更新的所有步骤都在控制台内进行。</block>
-  <block id="4911e961085841443a38c7723e51db5f" category="cell">9.10 至 9.12</block>
   <block id="fe385f63e4159e3390e41f9eeda9cf35" category="inline-link-macro">设置控制台代理</block>
   <block id="457e44cfd5d2481a65965d165183a3bc" category="cell">ONTAP更新的准备工作在软件更新屏幕内进行。您将导航到系统管理器来执行实际的ONTAP更新。要在控制台中执行ONTAP更新的所有步骤，您需要<block ref="bce7df831b83d66967fef86874454a8e" category="inline-link-macro-rx"></block>。</block>
-  <block id="1155c13f250f6538852b47b97dbe4f25" category="cell">9.8 至 9.10</block>
   <block id="8a4c9ac4196c389266a1503d3c95d6e7" category="cell">ONTAP更新的准备工作在软件更新屏幕内进行。您将导航到系统管理器来执行实际的ONTAP更新。</block>
-  <block id="60b64e93a40027428832c857c7a71b2d" category="cell">低于9.7</block>
-  <block id="33aad00fefff1fbc590e315d690c00a8" category="inline-link-macro">手动更新存储系统</block>
-  <block id="a829c0850bfb0d68ecc9eb68603b5023" category="cell">此集群不支持自动ONTAP更新。您需要手动更新ONTAP 。有关更多信息，请参阅<block ref="a1f8498c9b7905b725c4102bd3d5d83c" category="inline-link-macro-rx"></block> 。</block>
   <block id="d2defbf3afd50085b59a5d594bae7c67" category="section-title">使用软件更新的好处</block>
   <block id="f0daf4a0e66ba6802960eda6390d1d61" category="paragraph">更新ONTAP存储系统可以帮助您提高存储系统的性能、安全性和功能。</block>
   <block id="b99345e3abc797269f14f7b47fa81ccf" category="paragraph">更新ONTAP存储系统的一些好处包括：</block>
@@ -246,9 +235,7 @@
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">NetApp全新产品</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">如果您是NetApp新用户并且没有 NSS 帐户，请按照以下步骤操作。</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">帮助菜单的屏幕截图，其中支持是第一个选项</block>
-  <block id="e8d4092baef6680c6a35d5228ae31de2" category="paragraph"><block ref="e8d4092baef6680c6a35d5228ae31de2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">从支持注册页面找到您的帐户 ID 序列号。</block>
-  <block id="379f9cd57d97013f3f7fdd24f692a0b1" category="paragraph"><block ref="379f9cd57d97013f3f7fdd24f692a0b1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">NetApp 的支持注册网站</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">导航至<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block>并选择*我不是注册的NetApp客户*。</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">填写必填字段（带有红色星号的字段）。</block>
@@ -276,8 +263,6 @@
   <block id="a04a3a5322782e8c18d0d64be7e1ccbc" category="paragraph">如果您已有客户级 NSS 帐户并尝试添加合作伙伴级帐户，情况也是如此。</block>
   <block id="1afe8a81cfddc9fa9559e272bb6b9496" category="list-text">成功登录后， NetApp将存储 NSS 用户名。</block>
   <block id="1dcb63fd55c4d22e87cb32275b8cc808" category="inline-image-macro">三个水平点的图标</block>
-  <block id="0dfcbbbe02d3e96f8ad78782e8772587" category="paragraph">这是系统生成的映射到您的电子邮件的 ID。在*NSS 管理*页面上，您可以显示来自<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
-  <block id="fc79de85a483938f72fbcb9822ec0ae3" category="list-text">如果您需要刷新登录凭证令牌，还有一个*更新凭证*选项<block ref="5151db0ded96d46f40ae09b5e5b167a1" category="inline-image-macro-rx" type="image"></block>菜单。</block>
   <block id="b14d512a3c64fb5df16f6721b0603c63" category="paragraph">使用此选项会提示您再次登录。请注意，这些帐户的令牌将在 90 天后过期。我们将发布通知来提醒您此事。</block>
   <block id="d864f7e5886b05326127f590ca729cf4" category="sidebar">软件更新使客户能够简化ONTAP更新。它使评估、规划和执行过程自动化。</block>
   <block id="ba0ca2267e76f528aae11a6b57ac57a0" category="sidebar">软件更新文档</block>
@@ -288,7 +273,6 @@
   <block id="ddebeb4ac7a6b4f71908c388f89cb0e4" category="sidebar">登录软件更新</block>
   <block id="1fe917b01f9a3f87fa2d7d3b7643fac1" category="sidebar">常见问题解答</block>
   <block id="2a06b57f91392744dbf6f7eda93239cb" category="sidebar">使用软件更新</block>
-  <block id="3e01b70f098c97a8e8c6a729636b23d4" category="sidebar">选择ONTAP目标版本 9.10 或更高版本</block>
   <block id="7f0db81aba09a1ad44cbe411b40d1b00" category="sidebar">修复并确认ONTAP阻止程序</block>
   <block id="ef54c6082f1b8fb3ea432a9b7cdce377" category="sidebar">完成ONTAP存储系统更新</block>
   <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">博客和社区</block>
@@ -350,4 +334,21 @@
   <block id="daf104544b5203a46e1580e1b8583f1f" category="paragraph">将 NSS 凭据与您的NetApp Console帐户关联与将 NSS 帐户与控制台用户登录关联不同。</block>
   <block id="5bc1315a63455544e7a917a7cc968939" category="paragraph">这些 NSS 凭证与您的特定控制台帐户 ID 相关联。属于控制台组织的用户可以从*支持 &gt; NSS 管理*访问这些凭据。</block>
   <block id="7687b0a57d5cb728d9fb892dfc814715" category="paragraph">这些操作使控制台能够使用您的 NSS 帐户进行许可证下载、软件升级验证和未来支持注册等操作。</block>
+  <block id="043581d1236b7af801106bd8e6625593" category="admonition">仅当运行 ONTAP 9.10.1 或更高版本时，您才能使用此功能。</block>
+  <block id="ece84330c58c78fbf01a4972ddd0296e" category="paragraph">此时将显示需要软件更新的群集列表。</block>
+  <block id="324079baf078478689b1fffe292a58fa" category="list-text">确定您的存储系统的 ONTAP 目标版本。</block>
+  <block id="331ed5269367979dfabf03aff2ac4216" category="paragraph">有关识别 ONTAP 目标版本的信息，请参见 <block ref="811a6bc111a68a7468006fcebcb17b1a" category="inline-link-macro-rx"></block>。</block>
+  <block id="d246ea0c2a3ee278bb9416ecc41e65d0" category="list-text">修复并确认 ONTAP 拦截器。</block>
+  <block id="edd344dfd779af2092f17f0f61d408c3" category="paragraph">有关修复阻止程序的信息，请参见 <block ref="a0c773d092c5c735a87bc32f8b10113b" category="inline-link-macro-rx"></block>。</block>
+  <block id="ac1e940e4bc725e8939da550c7be6f8b" category="list-text">所有节点都应在 ONTAP 9.10.1 或更高版本上运行。</block>
+  <block id="f56500d1f623ea9da301131f3ec22239" category="paragraph">仅当您运行的是 ONTAP 9.10.1 或更高版本时，您才能使用软件更新完成 ONTAP 更新。</block>
+  <block id="22f284bcf4504118b4d7e9ed2bce2c2e" category="cell">9.12.1 及更高版本</block>
+  <block id="b8e707d2be1c734648eb91b029352369" category="cell">9.10.1 至 9.12.1</block>
+  <block id="0340357851e74773ea730e6a4dc54787" category="cell">9.8 至 9.10.1</block>
+  <block id="6a154dcd02d5adba24e85f9985e9ef42" category="admonition">Cloud Volumes ONTAP 不支持软件更新。</block>
+  <block id="38fc1b337c0ea26463916fc2913205c1" category="paragraph"><block ref="38fc1b337c0ea26463916fc2913205c1" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7019a39846e9a2c7f7a80eaba91e4a41" category="paragraph"><block ref="7019a39846e9a2c7f7a80eaba91e4a41" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">这是一个系统生成的 ID，映射到您的电子邮件。在 *NSS Management* 页面上，您可以从 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中显示您的电子邮件。</block>
+  <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登录凭据令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中还有 *Update Credentials* 选项。</block>
+  <block id="2b42ed8b95c44a18fed6f16125eff46e" category="sidebar">选择 ONTAP 目标版本 9.10.1 或更高版本</block>
 </blocks>

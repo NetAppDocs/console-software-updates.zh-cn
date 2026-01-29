@@ -20,7 +20,7 @@ indexpage:
       url: "/get-started/software-updates-faq.html"
   - title: 使用软件更新
     links:
-    - title: 选择ONTAP目标版本 9.10 或更高版本
+    - title: 选择 ONTAP 目标版本 9.10.1 或更高版本
       url: "/ONTAP/choose-ontap-910-later.html"
     - title: 修复并确认ONTAP阻止程序
       url: "/ONTAP/fix-blockers-warnings.html"
