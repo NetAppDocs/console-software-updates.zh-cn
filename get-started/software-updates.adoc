@@ -69,4 +69,4 @@ NOTE: Cloud Volumes ONTAP 不支持软件更新。
 
 == 成本
 
-NetApp不会向您收取使用软件更新的费用。
+软件更新需要有效的支持合同。

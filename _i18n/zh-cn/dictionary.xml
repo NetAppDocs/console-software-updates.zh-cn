@@ -144,7 +144,6 @@
   <block id="b7a37e1c1d64d306cdbebfe5093202c7" category="list-text">您可以确保与其他NetApp产品、第三方应用程序和云提供商的兼容性和互操作性。</block>
   <block id="2bba882789946cd1d1a2e47e7d673985" category="list-text">您可以受益于NetApp为最新ONTAP OS 版本提供的持续支持和维护。</block>
   <block id="20b4f77bd00b4f63a49ec8e08f3bf6a6" category="section-title">成本</block>
-  <block id="b1b0440f75a979fe2d1ec9d044846fd7" category="paragraph">NetApp不会向您收取使用软件更新的费用。</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
@@ -351,4 +350,5 @@
   <block id="1d593c3f7480ada9580d93cd753c3f93" category="paragraph">这是一个系统生成的 ID，映射到您的电子邮件。在 *NSS Management* 页面上，您可以从 <block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中显示您的电子邮件。</block>
   <block id="872eaae7deb6035c20f9bfe6deefd03d" category="list-text">如果您需要刷新登录凭据令牌，<block ref="5444f6f0c3983523c8933a1864b2b390" category="inline-image-macro-rx" type="image"></block> 菜单中还有 *Update Credentials* 选项。</block>
   <block id="2b42ed8b95c44a18fed6f16125eff46e" category="sidebar">选择 ONTAP 目标版本 9.10.1 或更高版本</block>
+  <block id="0ee40da0bf64949806c9488a6af02cd9" category="paragraph">软件更新需要有效的支持合同。</block>
 </blocks>
